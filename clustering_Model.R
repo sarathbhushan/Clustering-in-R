@@ -1,5 +1,7 @@
 rm(list=ls(all=T))
-setwd("C:\\Users\\abhushan\\OneDrive - Electronic Arts\\Hackathon ideas")
+
+#Set Working Directory
+setwd("Folder Path")
 
 dataset <- read.csv("one_day_data.csv", header = T, sep = ",",na.strings=c("","NA"))
 
